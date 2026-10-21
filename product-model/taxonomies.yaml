@@ -1,0 +1,6 @@
+scenarioKinds:
+  - {"id": "primary", "name": "Primary", "description": "The usual successful path."}
+  - {"id": "alternate", "name": "Alternate", "description": "Another supported route to a successful result."}
+  - {"id": "validation", "name": "Validation", "description": "Input or the state of the day prevents the requested operation."}
+  - {"id": "edge", "name": "Edge", "description": "A model, an outside service or a change elsewhere alters the result."}
+  - {"id": "automatic", "name": "Automatic", "description": "whatnow does it on its own, when something it watches happens."}
